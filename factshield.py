@@ -22,7 +22,7 @@ MAX_CACHE_SIZE = 1000
 DEFAULT_MODEL = "llama-3.1-8b-instant" 
 
 # 🔒 SECURITY NOTE: Consider using environment variables for production
-GROQ_API_KEY = "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"   
+GROQ_API_KEY = "API KEY"   
 
 # ====================== MODEL LOADING ======================
 @st.cache_resource
