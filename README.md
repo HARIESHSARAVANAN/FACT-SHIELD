@@ -1,182 +1,133 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=260&color=0:4facfe,100:00f2fe&text=🛡️%20FactShield&fontSize=48&fontColor=ffffff&animation=twinkling&fontAlignY=40"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=300&color=0:0F2027,50:203A43,100:2C5364&text=🛡️%20FactShield&fontColor=FFFFFF&fontSize=55&animation=twinkling&fontAlignY=38"/>
 
-# 🛡️ FactShield
-
-### Intelligent AI-Powered Fact Checking & Bias Detection Platform
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=28&duration=3500&pause=1000&color=00E5FF&center=true&vCenter=true&width=900&lines=AI-Powered+Fact+Verification+Platform;Detect+Misinformation+Using+LLMs;Bias+Detection+%7C+NLP+%7C+Machine+Learning;Built+with+Groq+%2B+spaCy+%2B+Streamlit"/>
 
 <p align="center">
-Detect misinformation, uncover hidden bias, analyze credibility, and verify claims using Large Language Models and Natural Language Processing.
-</p>
 
-<p>
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
 
-<img src="https://img.shields.io/badge/AI-Groq%20LLM-FF6B6B?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/>
 
-<img src="https://img.shields.io/badge/Python-3.12-3776AB?style=for-the-badge&logo=python"/>
-
-<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit"/>
+<img src="https://img.shields.io/badge/Groq-LLM-orange?style=for-the-badge"/>
 
 <img src="https://img.shields.io/badge/spaCy-NLP-09A3D5?style=for-the-badge"/>
 
-<img src="https://img.shields.io/badge/Transformers-HuggingFace-yellow?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/HuggingFace-Transformers-yellow?style=for-the-badge"/>
 
 <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge"/>
 
 </p>
 
-<p>
+<p align="center">
 
 <img src="https://skillicons.dev/icons?i=python,git,vscode"/>
 
 </p>
 
-</div>
+---
+
+## 🌟 AI Powered Fact Verification Platform
+
+**FactShield** is an intelligent misinformation detection platform that leverages **Large Language Models (LLMs)** and **Natural Language Processing (NLP)** to verify claims, identify misinformation, analyze sentiment, and detect hidden bias.
+
+Designed to assist users in evaluating the credibility of online content, FactShield combines modern AI models with linguistic analysis to generate transparent and explainable verification results.
 
 ---
 
-# ✨ Overview
+# ✨ Features
 
-FactShield is an AI-powered misinformation detection system designed to analyze textual information, detect bias, evaluate credibility, and verify factual claims using modern Natural Language Processing and Large Language Models.
+🔍 AI Fact Verification
 
-The platform combines multiple AI models with linguistic analysis to provide users with transparent insights into the reliability of news articles, social media posts, and factual statements.
+🧠 Natural Language Processing
 
-Whether analyzing breaking news, online discussions, or research content, FactShield delivers explainable and intelligent fact verification.
+⚖️ Political & Emotional Bias Detection
 
----
+📊 Credibility Score Generation
 
-# 🚀 Key Features
+😊 Sentiment Analysis
 
-### 🤖 AI Fact Verification
+🏷 Named Entity Recognition
 
-- Intelligent claim analysis
-- LLM-powered reasoning
-- Context-aware verification
+📑 AI Generated Explanations
 
-### 🧠 NLP Analysis
+⚡ High-Speed Processing
 
-- Named Entity Recognition
-- Keyword Extraction
-- Sentiment Analysis
-- Language Understanding
+💾 Intelligent Response Caching
 
-### ⚖️ Bias Detection
-
-- Political Bias Detection
-- Emotional Language Analysis
-- Toxicity Identification
-- Neutrality Assessment
-
-### 📊 Smart Analytics
-
-- Credibility Score
-- Confidence Rating
-- Text Complexity
-- Readability Metrics
-
-### ⚡ Performance
-
-- Intelligent Caching
-- API Rate Limiting
-- Fast Response Time
-- Optimized Processing
+🔒 Secure API Handling
 
 ---
 
-# 🛠 Technology Stack
+# 🚀 Technology Stack
 
-| Category | Technologies |
-|-----------|--------------|
+| Category | Technology |
+|-----------|------------|
 | Language | Python |
 | Framework | Streamlit |
-| LLM | Groq Llama 3.1 |
+| LLM | Groq Llama 3 |
 | NLP | spaCy |
-| AI Models | HuggingFace Transformers |
+| AI Models | Hugging Face Transformers |
 | Sentiment | TextBlob |
-| Networking | Requests |
-| Caching | JSON Cache |
+| API | Requests |
+| Cache | JSON |
 
 ---
 
-# 🏛 System Architecture
+# 🧠 AI Workflow
 
-```text
-                    User Input
-                         │
-                         ▼
-              Text Preprocessing
-                         │
-         ┌───────────────┼───────────────┐
-         ▼               ▼               ▼
-   spaCy NLP       Bias Detection     Sentiment
-         │               │               │
-         └───────────────┼───────────────┘
-                         ▼
-                  Groq LLM Engine
-                         │
-          Claim Verification & Analysis
-                         │
-                         ▼
-               Credibility Assessment
-                         │
-                         ▼
-                  Interactive Dashboard
-```
+```mermaid
+flowchart TD
 
----
+A["👤 User Input"] --> B["📝 Text Processing"]
 
-# 🎯 Core Capabilities
+B --> C["🧠 spaCy NLP"]
 
-✅ AI Fact Checking
+C --> D["🏷 Named Entity Recognition"]
 
-✅ Bias Detection
+C --> E["😊 Sentiment Analysis"]
 
-✅ Sentiment Analysis
+C --> F["⚖ Bias Detection"]
 
-✅ Named Entity Recognition
+D --> G["🤖 Groq LLM"]
 
-✅ Claim Verification
+E --> G
 
-✅ Text Summarization
+F --> G
 
-✅ Confidence Scoring
+G --> H["📊 Credibility Score"]
 
-✅ Intelligent Caching
+H --> I["📄 Explainable AI Report"]
 
-✅ Secure API Handling
-
----
-
-# ⚙ Installation
-
-Clone Repository
-
-```bash
-git clone https://github.com/YOUR_USERNAME/FACT-SHIELD.git
-```
-
-Navigate
-
-```bash
-cd FACT-SHIELD
-```
-
-Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-Run Application
-
-```bash
-streamlit run factshield.py
+I --> J["🌐 Streamlit Dashboard"]
 ```
 
 ---
 
-# 📁 Project Structure
+# ⚡ Key Capabilities
+
+✔ Fact Verification
+
+✔ Misinformation Detection
+
+✔ Bias Classification
+
+✔ Sentiment Analysis
+
+✔ Named Entity Recognition
+
+✔ Explainable AI
+
+✔ Fast Response Time
+
+✔ Intelligent Cache
+
+✔ REST API Integration
+
+---
+
+# 📂 Project Structure
 
 ```text
 FACT-SHIELD
@@ -185,56 +136,87 @@ FACT-SHIELD
 
 ├── factshield.py
 
-├── models/
+├── requirements.txt
 
 ├── cache/
 
 ├── assets/
-
-├── requirements.txt
 
 └── README.md
 ```
 
 ---
 
-# 🔒 Security Features
+# ⚙ Installation
 
-- API Key Validation
+### Clone Repository
 
-- Secure Error Handling
+```bash
+git clone https://github.com/HARIESHSARAVANAN/FACT-SHIELD.git
+```
 
-- Request Rate Limiting
+### Navigate
 
-- Local Response Cache
+```bash
+cd FACT-SHIELD
+```
 
-- Exception Recovery
+### Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### Run Application
+
+```bash
+streamlit run factshield.py
+```
 
 ---
 
-# 🚀 Future Enhancements
+# 🎯 Why FactShield?
 
-- 🌍 Live News API Integration
+Modern misinformation spreads faster than ever.
 
-- 📄 PDF Fact Verification
+FactShield helps users evaluate information by combining:
 
-- 🎙 Voice Claim Detection
+- Artificial Intelligence
+- Natural Language Processing
+- Large Language Models
+- Explainable AI
+- Sentiment Analysis
+- Bias Detection
 
-- 🌐 Browser Extension
+into one intelligent verification platform.
 
-- 📱 Mobile Application
+---
 
-- 📈 Analytics Dashboard
+# 🔮 Future Enhancements
 
-- ☁ Cloud Deployment
+🌍 Live News Verification
 
-- 🔍 Multi-language Support
+📄 PDF Fact Checking
+
+🎙 Voice Claim Analysis
+
+🌐 Browser Extension
+
+📱 Mobile Application
+
+📈 Interactive Analytics
+
+☁ Cloud Deployment
+
+🌎 Multi-Language Support
+
+🤖 Multi-LLM Comparison
 
 ---
 
 # 🤝 Contributing
 
-Contributions are welcome.
+Contributions are welcome!
 
 ```text
 🍴 Fork Repository
@@ -243,7 +225,7 @@ Contributions are welcome.
 
 💻 Commit Changes
 
-🚀 Push to GitHub
+🚀 Push Changes
 
 🎉 Open Pull Request
 ```
@@ -256,11 +238,11 @@ Contributions are welcome.
 
 ## Hariesh Saravanan
 
-**AI • Machine Learning • NLP • Cybersecurity**
+**AI Engineer • Machine Learning • NLP • Cybersecurity**
 
 <a href="https://github.com/HARIESHSARAVANAN">
 
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github"/>
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
 
 </a>
 
@@ -270,8 +252,8 @@ Contributions are welcome.
 
 <div align="center">
 
-## ⭐ Star this repository if you found it useful!
+### ⭐ If you found this project useful, consider giving it a Star!
 
-<img src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=140&color=0:00f2fe,100:4facfe&animation=twinkling"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=170&color=0:2C5364,50:203A43,100:0F2027&animation=twinkling"/>
 
 </div>
